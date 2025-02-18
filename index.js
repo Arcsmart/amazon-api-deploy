@@ -13,7 +13,7 @@ app.get("/",(req,res)=>{
           message:"Success !"
      })     
 })
-
+// get request for backend project
 
 app.post("/payment/create",async(req,res)=>{
   const total=req.query.total 
